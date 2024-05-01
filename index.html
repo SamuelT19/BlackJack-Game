@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Jack</title>
+    <link rel="stylesheet" href="jack.css">
+    <script defer src="jack.js"></script>
+</head>
+<body>
+    <div class="container-5">
+        <h2 class="title">Blackjack Game</h2>
+        <h3><span id="blackjack-result">Let's play</span></h3>
+
+        <div class="flex-blackjack-row-1">
+            <div id="your-box" >
+                <h2>YOU: <span id="your-blackjack-result" class="sami">0</span></h2>
+                <hr>
+            </div>
+
+            <div id="dealer-box" >
+                <h2>Dealer: <span id="dealer-blackjack-result" class="sami">0</span></h2>
+                <hr>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button id="blackjack-hit-button">Hit</button>
+                <button id="blackjack-stand-button">Stand</button>
+                <button id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

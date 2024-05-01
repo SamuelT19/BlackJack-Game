@@ -1,0 +1,68 @@
+@font-face {
+	src: url(fonts/Inkfree.ttf);
+	font-family: handn;
+}
+@font-face {
+	src: url(fonts/georgiaz.ttf);
+	font-family: handb;
+}
+@font-face {
+	src: url(fonts/DancingScript-Bold.ttf);
+	font-family: handc;
+}
+.title ,h3, #your-box, #dealer-box, .flex-blackjack-row-2, .flex-blackjack-row-3{
+	text-align: center;
+}
+.title{
+	font-weight: bold;
+	font-family: handc;
+	font-size: 40px;
+	margin: 0px;
+}
+#blackjack-result{
+	font-size: 30px;
+	margin: 5px;
+}
+.flex-blackjack-row-1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 350px;
+	margin: 10px 0;
+	background-color: black;
+	color: white;
+}
+.flex-blackjack-row-1 h2{
+	margin: 5px;
+}
+#your-box, #dealer-box{
+	border: solid 3px ;
+}
+.flex-blackjack-row-2 button{
+	font-size: 20px;
+	margin: 10px 3px;
+	padding: 3px 10px;
+}
+.flex-blackjack-row-3{
+	display: flex;
+	justify-content: center;
+}
+ table, th, td{
+	border: solid 1px red;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+}
+td span{
+	font-size: 25px;
+	font-weight: bold;
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 750px){
+
+}
